@@ -1,0 +1,31 @@
+$main-color: #f29724;
+$secondary-color:white;
+
+
+.sidebarItem{
+    color: white !important;
+    padding: 10px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 15px;
+    
+    &.active {
+        background-color: $main-color !important;
+        color: white !important;
+        box-shadow: 0 4px 8px rgba($main-color, 0.7);
+    }
+    &:hover{
+        transform: scale(1.05);
+        box-shadow: 0 6px 12px rgba($secondary-color, 0.8);
+    }
+    &.inactive {
+    background-color: $secondary-color !important;
+    color: black !important;
+        &:hover {
+            // background-color: $main-color !important;
+            // color: white !important;
+            box-shadow: 0 6px 12px rgba($main-color, 0.2);
+        }
+    }
+}

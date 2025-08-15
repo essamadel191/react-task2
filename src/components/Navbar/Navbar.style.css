@@ -1,0 +1,24 @@
+.sidebarItem {
+  color: white !important;
+  padding: 10px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 15px;
+}
+.sidebarItem.active {
+  background-color: #f29724 !important;
+  color: white !important;
+  box-shadow: 0 4px 8px rgba(242, 151, 36, 0.7);
+}
+.sidebarItem:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.8);
+}
+.sidebarItem.inactive {
+  background-color: white !important;
+  color: black !important;
+}
+.sidebarItem.inactive:hover {
+  box-shadow: 0 6px 12px rgba(242, 151, 36, 0.2);
+}/*# sourceMappingURL=Navbar.style.css.map */
