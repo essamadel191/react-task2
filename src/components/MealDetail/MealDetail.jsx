@@ -72,13 +72,13 @@ const MealDetail = ({ base_url }) => {
                   </li>
 
                   <li className="bg-gray-700 text-white py-2 px-4 rounded-lg">
-                    <FaEarthAfrica/>
                     <a 
                       target="_blank" 
                       rel="noopener noreferrer"
                       href={meal.strSource} 
                       className="flex items-center justify-center gap-2"
                     >
+                      <FaEarthAfrica/>
                       Source
                     </a>
                   </li>
