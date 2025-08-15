@@ -76,7 +76,7 @@ const MealDetail = ({ base_url }) => {
                       target="_blank" 
                       rel="noopener noreferrer"
                       href={meal.strSource} 
-                      className="flex items-center justify-center gap-2"
+                      className="inline-flex items-center gap-2"
                     >
                       <FaEarthAfrica/>
                       Source
